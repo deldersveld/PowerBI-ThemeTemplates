@@ -42,7 +42,7 @@
 					"labelColor": { "solid": { "color": "#01B8AA"}},
 					"fontSize": 14,
 					"fontFamily": "Courier New",
-					"labelDisplayUnits": "None",
+					"labelDisplayUnits": "0",
 					"labelPrecision": "Auto",
 					"showAxisTitle": true,
 					"axisStyle": "showTitleOnly",
@@ -61,7 +61,7 @@
 				"labels": [{
 					"show": true,
 					"color": { "solid": { "color": "#EEEEEE"}},
-					"labelDisplayUnits": "Auto",
+					"labelDisplayUnits": "0",
 					"labelPrecision": 1,
 					"fontSize": 11,
 					"fontFamily": "Courier New",

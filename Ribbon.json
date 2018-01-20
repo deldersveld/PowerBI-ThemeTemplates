@@ -37,7 +37,7 @@
 				"labels": [{
 					"show": true,
 					"color": { "solid": { "color": "#EEEEEE"}},
-					"labelDisplayUnits": "Auto",
+					"labelDisplayUnits": "0",
 					"labelPrecision": 1,
 					"labelOrientation": "vertical",
 					"labelPosition": "InsideEnd",

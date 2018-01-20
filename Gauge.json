@@ -14,7 +14,7 @@
 				"labels": [{
 					"show": true,
 					"color": { "solid": { "color": "#EEEEEE"}},
-					"labelDisplayUnits": "Auto",
+					"labelDisplayUnits": "0",
 					"labelPrecision": 1,
 					"fontSize": 11,
 					"fontFamily": "Courier New"
@@ -22,7 +22,7 @@
 				"target": [{
 					"show": true,
 					"color": { "solid": { "color": "#EEEEEE"}},
-					"labelDisplayUnits": "Auto",
+					"labelDisplayUnits": "0",
 					"labelPrecision": 1,
 					"fontSize": 11,
 					"fontFamily": "Courier New"
@@ -30,7 +30,7 @@
 				"calloutValue": [{
 					"show": true,
 					"color": { "solid": { "color": "#EEEEEE"}},
-					"labelDisplayUnits": "Auto",
+					"labelDisplayUnits": "0",
 					"labelPrecision": 1
 				}]					
 			}

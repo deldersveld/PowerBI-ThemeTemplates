@@ -16,7 +16,7 @@
 					"show": true,
 					"labelStyle": "Data",
 					"color": { "solid": { "color": "#01B8AA"}},
-					"labelDisplayUnits": "",
+					"labelDisplayUnits": "0",
 					"labelPrecision": 0,
 					"fontSize": 10,
 					"fontFamily": "Verdana"
