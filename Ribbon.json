@@ -1,0 +1,61 @@
+{
+	"name": "RibbonTemplate",
+	"visualStyles": {
+		"ribbonChart": {
+			"*": {
+				"general": [{
+					"responsive": true
+				}],
+				"legend": [{
+					"show": true,
+					"position": "Top",
+					"showTitle": true,
+					"titleText": "",
+					"labelColor": { "solid": { "color": "#01B8AA"}},
+					"fontFamily": "Courier New",
+					"fontSize": 10
+				}],
+				"categoryAxis": [{
+					"show": true,
+					"labelColor": { "solid": { "color": "#01B8AA"}},
+					"fontSize": 14,
+					"fontFamily": "Segoe UI",
+					"preferredCategoryWidth": 30,
+					"maxMarginFactor": 28,
+					"innerPadding": 22,
+					"concatenateLabels": true,
+					"showAxisTitle": true,
+					"axisStyle": "showTitleOnly",
+					"titleColor": { "solid": { "color": "#01B8AA"}},
+					"titleText": "asdf",
+					"titleFontSize": 12,
+					"titleFontFamily": "Segoe UI"
+				}],
+				"dataPoint": [{
+					"defaultColor": { "solid": { "color": "#448822"}}
+				}],
+				"labels": [{
+					"show": true,
+					"color": { "solid": { "color": "#EEEEEE"}},
+					"labelDisplayUnits": "Auto",
+					"labelPrecision": 1,
+					"labelOrientation": "vertical",
+					"labelPosition": "InsideEnd",
+					"fontSize": 11,
+					"fontFamily": "Courier New",
+					"enableBackground": true,
+					"backgroundColor": { "solid": { "color": "#0928DD"}},
+					"backgroundTransparency": 30
+				}],		
+				"plotArea": [{
+					"transparency": 20
+				}],
+				"ribbonChart": [{
+					"colorBands": true,
+					"bandsTransparency": 20,
+					"showBorder": true
+				}]
+			}
+		}
+	}
+}

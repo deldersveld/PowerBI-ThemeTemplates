@@ -1,0 +1,91 @@
+{
+	"name": "ScatterChartTemplate",
+	"visualStyles": {
+		"scatterChart": {
+			"*": {
+				"general": [{
+					"responsive": true,
+					"dataVolume": 10000
+				}],
+				"legend": [{
+					"show": true,
+					"position": "Top",
+					"showTitle": true,
+					"titleText": "",
+					"labelColor": { "solid": { "color": "#01B8AA"}},
+					"fontFamily": "Courier New",
+					"fontSize": 10
+				}],
+				"categoryAxis": [{
+					"show": true,
+					"axisScale": "Linear",
+					"start": 0,
+					"end": 10,
+					"labelColor": { "solid": { "color": "#01B8AA"}},
+					"fontSize": 14,
+					"fontFamily": "Courier New",
+					"labelDisplayUnits": "None",
+					"labelPrecision": "Auto",
+					"showAxisTitle": true,
+					"axisStyle": "showTitleOnly",
+					"color": { "solid": { "color": "01B8AA"}},
+					"titleText": "asdf",
+					"titleFontSize": 12,
+					"titleFontFamily": "Courier New",
+					"gridlineShow": true,
+					"gridlineColor": { "solid": { "color": "#01B8AA"}},
+					"gridlineThickness": 2,
+					"gridlineStyle": "dashed"
+				}],
+				"valueAxis": [{
+					"show": true,
+					"position": "Right",
+					"axisScale": "Linear",
+					"start": 0,
+					"end": 10,
+					"labelColor": { "solid": { "color": "#01B8AA"}},
+					"fontSize": 14,
+					"fontFamily": "Courier New",
+					"labelDisplayUnits": "None",
+					"labelPrecision": "Auto",
+					"showAxisTitle": true,
+					"axisStyle": "showTitleOnly",
+					"color": { "solid": { "color": "01B8AA"}},
+					"titleText": "asdf",
+					"titleFontSize": 12,
+					"titleFontFamily": "Courier New",
+					"gridlineShow": true,
+					"gridlineColor": { "solid": { "color": "#01B8AA"}},
+					"gridlineThickness": 2,
+					"gridlineStyle": "dashed"
+				}],
+				"dataPoint": [{
+					"defaultColor": { "solid": { "color": "#448822"}}
+				}],
+				"shapes": [{
+					"markerSize": 3,
+					"markerStyle": "triangle",
+					"customizeSeries": true
+				}],
+				"plotArea": [{
+					"transparency": 20
+				}],
+				"categoryLabels": [{
+					"show": true,
+					"color": { "solid": { "color": "#EEEEEE"}},
+					"fontSize": 11,
+					"fontFamily": "Courier New",
+					"enableBackground": true,
+					"backgroundColor": { "solid": { "color": "#0928DD"}},
+					"backgroundTransparency": 30
+				}],	
+				"fillPoint": [{
+					"show": false
+				}],
+				"colorByCategory": [{
+					"show": false
+				}]
+			}
+		}
+	}
+}

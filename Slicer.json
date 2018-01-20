@@ -1,0 +1,39 @@
+{
+	"name": "SlicerTemplate",
+	"visualStyles": {
+		"slicer": {
+			"*": {
+				"general": [{
+					"outlineColor": { "solid": { "color": "#444444"}},
+					"outlineWeight": 1,
+					"orientation": "vertical",
+					"responsive": true
+				}],
+				"data": [{
+					"mode": "Basic",
+					"relativeRange": "",
+					"relativePeriod": ""
+				}],
+				"selection": [{
+					"selectAllCheckboxEnabled": false,
+					"singleSelect": true
+				}],
+				"header": [{
+					"show": true,
+					"fontColor": { "solid": { "color": "#000000"}},
+					"background": { "solid": { "color": ""}},
+					"outline": "None",
+					"textSize": 10,
+					"fontFamily": "Segoe UI"
+				}],
+				"items": [{
+					"fontColor": { "solid": { "color": "#000000"}},
+					"background": { "solid": { "color": ""}},
+					"outline": "None",
+					"textSize": 11,
+					"fontFamily": "Segoe UI"
+				}]
+			}
+		}
+	}
+}

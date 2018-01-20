@@ -1,0 +1,32 @@
+{
+	"name": "FilledMapTemplate",
+	"visualStyles": {
+		"filledMap": {
+			"*": {
+				"legend": [{
+					"show": true,
+					"position": "Top",
+					"showTitle": true,
+					"titleText": "",
+					"defaultColor": { "solid": { "color": "#01B8AA"}},
+					"fontFamily": "Segoe UI Light",
+					"fontSize": 10
+				}],
+				"dataPoint": [{
+					"defaultCategoryColor": { "solid": { "color": "#01B1AA"}},
+					"showAllDataPoints": true
+					
+				}],
+				"mapControls": [{
+					"autoZoom": true,
+					"zoomLevel": 4,
+					"centerLatitude": 43,
+					"centerLongitude": -83
+				}],
+				"mapStyles": [{
+					"mapTheme": "grayscale"
+				}]
+			}
+		}
+	}
+}

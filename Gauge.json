@@ -1,0 +1,39 @@
+{
+	"name": "GaugeTemplate",
+	"visualStyles": {
+		"gauge": {
+			"*": {
+				"axis": [{
+					"max": 100,
+					"target": 101
+				}],
+				"dataPoint": [{
+					"fill": { "solid": { "color": "#01B8AA"}},
+					"target": { "solid": { "color": "#FFB8DD"}}
+				}],
+				"labels": [{
+					"show": true,
+					"color": { "solid": { "color": "#EEEEEE"}},
+					"labelDisplayUnits": "Auto",
+					"labelPrecision": 1,
+					"fontSize": 11,
+					"fontFamily": "Courier New"
+				}],	
+				"target": [{
+					"show": true,
+					"color": { "solid": { "color": "#EEEEEE"}},
+					"labelDisplayUnits": "Auto",
+					"labelPrecision": 1,
+					"fontSize": 11,
+					"fontFamily": "Courier New"
+				}],
+				"calloutValue": [{
+					"show": true,
+					"color": { "solid": { "color": "#EEEEEE"}},
+					"labelDisplayUnits": "Auto",
+					"labelPrecision": 1
+				}]					
+			}
+		}
+	}
+}

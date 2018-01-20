@@ -1,0 +1,37 @@
+{
+	"name": "ShapeMapTemplate",
+	"visualStyles": {
+		"shapeMap": {
+			"*": {
+				"dataPoint": [{
+					"defaultColor": { "solid": { "color": "#01B8AA"}},
+					"showAllDataPoints": true
+				}],
+				"legend": [{
+					"show": true,
+					"position": "Top",
+					"showTitle": true,
+					"titleText": "",
+					"legendColor": { "solid": { "color": "#01B8AA"}},
+					"fontFamily": "Segoe UI",
+					"fontSize": 12
+				}],
+				"shape": [{
+					"map": "",
+					"projectionEnum": "mercator"
+				}],
+				"defaultColors": [{
+					"defaultShow": true,
+					"defaultColor": { "solid": { "color": "#DDDDDD"}},
+					"borderColor": { "solid": { "color": "#222222"}},
+					"borderThickness": 1
+				}],
+				"zoom": [{
+					"autoZoom": true,
+					"selectionZoom": true,
+					"manualZoom": true
+				}]
+			}
+		}
+	}
+}

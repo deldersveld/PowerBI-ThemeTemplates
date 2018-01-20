@@ -1,0 +1,35 @@
+{
+	"name": "MultiRowCardTemplate",
+	"visualStyles": {
+		"multiRowCard": {
+			"*": {
+				"dataLabels": [{
+					"color": { "solid": { "color": "#01B8AA"}},
+					"fontSize": 10,
+					"fontFamily": "Verdana"
+				}],
+				"categoryLabels": [{
+					"show": true,
+					"color": { "solid": { "color": "#000000"}},
+					"fontSize": 10,
+					"fontFamily": "Verdana"
+				}],
+				"cardTitle": [{
+					"color": { "solid": { "color": "#01B8AA"}},
+					"fontSize": 10,
+					"fontFamily": "Verdana"
+				}],
+				"card": [{
+					"outline": "TopOnly",
+					"outlineColor": { "solid": { "color": "#000000"}},
+					"outlineWeight": 2,
+					"barShow": true,
+					"barColor": { "solid": { "color": "#01B8AA"}},
+					"barWeight": 2,
+					"cardPadding": 20,
+					"cardBackground": { "solid": { "color": "#EEEEEE"}}
+				}]
+			}
+		}
+	}
+}

@@ -1,0 +1,25 @@
+{
+	"name": "CardTemplate",
+	"visualStyles": {
+		"card": {
+			"*": {
+				"labels": [{
+					"color": { "solid": { "color": "#000000"}},
+					"labelDisplayUnits": "",
+					"labelPrecision": 0,
+					"fontSize": 10,
+					"fontFamily": "Verdana"
+				}],
+				"categoryLabels": [{
+					"show": true,
+					"color": { "solid": { "color": "#01B8AA"}},
+					"fontSize": 10,
+					"fontFamily": "Verdana"
+				}],
+				"wordWrap": [{
+					"show": true
+				}]
+			}
+		}
+	}
+}

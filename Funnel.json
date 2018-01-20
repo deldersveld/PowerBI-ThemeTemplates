@@ -1,0 +1,34 @@
+{
+	"name": "FunnelTemplate",
+	"visualStyles": {
+		"funnel": {
+			"*": {
+				"categoryAxis": [{
+					"show": true,
+					"color": { "solid": { "color": "#000000"}},
+					"fontSize": 10,
+					"fontFamily": "Verdana"
+				}],
+				"dataPoint": [{
+					"defaultColor": { "solid": { "color": "#010000"}},
+					"showAllDataPoints": true
+				}],
+				"labels": [{
+					"show": true,
+					"color": { "solid": { "color": "#01B8AA"}},
+					"labelDisplayUnits": "None",
+					"labelPrecision": 1,
+					"labelPosition": "OutsideEnd",
+					"fontSize": 10,
+					"fontFamily": "Verdana"
+				}],
+				"percentBarLabel": [{
+					"show": true,
+					"color": { "solid": { "color": "#01B8AA"}},
+					"fontSize": 10,
+					"fontFamily": "Verdana"
+				}]
+			}
+		}
+	}
+}

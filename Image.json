@@ -1,0 +1,12 @@
+{
+	"name": "ImageTemplate",
+	"visualStyles": {
+		"image": {
+			"*": {
+				"imageScaling": [{
+					"imageScalingType": "Normal"
+				}]
+			}
+		}
+	}
+}

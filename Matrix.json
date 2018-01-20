@@ -1,0 +1,77 @@
+{
+	"name": "MatrixTemplate",
+	"visualStyles": {
+		"pivotTable": {
+			"*": {
+				"grid": [{
+					"gridVertical": true,
+					"gridVerticalColor": { "solid": { "color": "#FFB8DD"}},
+					"gridVerticalWeight": 2,
+					"gridHorizontal": true,
+					"gridHorizontalColor": { "solid": { "color": "#FFB8DD"}},
+					"gridHorizontalWeight": 2,
+					"rowPadding": 2,
+					"outlineColor": { "solid": { "color": "#FFB8DD"}},
+					"outlineWeight": 2,
+					"textSize": 14,
+					"imageHeight": 100
+				}],
+				"columnHeaders": [{
+					"fontColor": { "solid": { "color": "#00B8DD"}},
+					"backColor": { "solid": { "color": "#00AA22"}},
+					"outline": "Frame",
+					"autoSizeColumnWidth": true,
+					"fontFamily": "Courier New",
+					"fontSize": 12,
+					"alignment": "Left",
+					"urlIcon": true,
+					"wordWrap": true
+				}],
+				"rowHeaders": [{
+					"fontColor": { "solid": { "color": "#00B8DD"}},
+					"backColor": { "solid": { "color": "#00AA22"}},
+					"outline": "Frame",
+					"stepped": true,
+					"steppedLayoutIndentation": 12,					
+					"urlIcon": true,
+					"wordWrap": true,
+					"fontFamily": "Courier New",
+					"fontSize": 12,
+					"alignment": "Left"
+				}],
+				"values": [{
+					"fontColorPrimary": { "solid": { "color": "#00B8DD"}},
+					"backColorPrimary": { "solid": { "color": "#00AA22"}},
+					"fontColorSecondary": { "solid": { "color": "#FFB8DD"}},
+					"backColorSecondary": { "solid": { "color": "#FFAA22"}},
+					"bandedRowHeaders": true,
+					"valuesOnRow": true,
+					"outline": "Frame",
+					"urlIcon": true,
+					"wordWrap": true,
+					"fontFamily": "Courier New",
+					"fontSize": 12
+				}],
+				"subTotals": [{
+					"rowSubtotals": true,
+					"columnSubtotals": true,
+					"fontColor": { "solid": { "color": "332222"}},
+					"fontFamily": "Verdana",
+					"backColor": { "solid": { "color": "01B8AA"}},
+					"fontSize": 14,
+					"applyToHeaders": true,
+					"rowSubtotalsPosition": "Bottom",
+					"perRowLevel": true,
+					"perColumnLevel": true					
+				}],
+				"total": [{
+					"fontColor": { "solid": { "color": "#00B8DD"}},
+					"fontFamily": "Courier New",
+					"backColor": { "solid": { "color": "#00AA22"}},
+					"applyToHeaders": true,
+					"fontSize": 14
+				}]
+			}
+		}
+	}
+}

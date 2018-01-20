@@ -1,0 +1,26 @@
+{
+	"name": "KPITemplate",
+	"visualStyles": {
+		"kpi": {
+			"*": {
+				"indicator": [{
+					"indicatorDisplayUnits": "Auto",
+					"indicatorPrecision": 1
+				}],
+				"trendline": [{
+					"show": true
+				}],
+				"goals": [{
+					"showGoal": true,
+					"showDistance": true
+				}],
+				"status": [{
+					"direction": "Negative",
+					"goodColor": { "solid": { "color": "#01B8AA"}},
+					"neutralColor": { "solid": { "color": "#FFB8DD"}},
+					"badColor": { "solid": { "color": "#018866"}}
+				}]
+			}
+		}
+	}
+}

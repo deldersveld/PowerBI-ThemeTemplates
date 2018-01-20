@@ -1,0 +1,27 @@
+{
+	"name": "DonutChartTemplate",
+	"visualStyles": {
+		"donutChart": {
+			"*": {
+				"legend": [{
+					"show": true,
+					"position": "Top",
+					"showTitle": true,
+					"titleText": "",
+					"legendColor": { "solid": { "color": "#01B8AA"}},
+					"fontFamily": "Segoe UI",
+					"fontSize": 12
+				}],
+				"labels": [{
+					"show": true,
+					"labelStyle": "Data",
+					"color": { "solid": { "color": "#01B8AA"}},
+					"labelDisplayUnits": "",
+					"labelPrecision": 0,
+					"fontSize": 10,
+					"fontFamily": "Verdana"
+				}]
+			}
+		}
+	}
+}

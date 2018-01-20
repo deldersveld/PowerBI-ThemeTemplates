@@ -1,0 +1,44 @@
+{
+	"name": "MapTemplate",
+	"visualStyles": {
+		"map": {
+			"*": {
+				"legend": [{
+					"show": true,
+					"position": "Top",
+					"showTitle": true,
+					"titleText": "",
+					"legendColor": { "solid": { "color": "#01B8AA"}},
+					"fontFamily": "Segoe UI",
+					"fontSize": 12
+				}],
+				"dataPoint": [{
+					"defaultCategoryColor": { "solid": { "color": "#01B1AA"}},
+					"showAllDataPoints": true
+					
+				}],
+				"categoryLabels": [{
+					"show": true,
+					"color": { "solid": { "color": "#EEEEEE"}},
+					"fontSize": 10,
+					"fontFamily": "Segoe UI",
+					"enableBackground": true,
+					"backgroundColor": { "solid": { "color": "#000000"}},
+					"backgroundTransparency": 50
+				}],				
+				"bubbles": [{
+					"bubbleSize": 0
+				}],
+				"mapControls": [{
+					"autoZoom": true,
+					"zoomLevel": 4,
+					"centerLatitude": 43,
+					"centerLongitude": -83
+				}],
+				"mapStyles": [{
+					"mapTheme": "grayscale"
+				}]
+			}
+		}
+	}
+}
