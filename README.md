@@ -1,6 +1,8 @@
 # Power BI Theme Templates
 ### Snippets for assembling Power BI Themes
 
+#### [Get them here](https://github.com/deldersveld/PowerBI-ThemeTemplates) or view the visual list below
+
 - Are you working with Themes in Power BI but confused about the visual formatting options (visualStyles)?  
 - Have you struggled while trying to make sense of the [Power BI report themes documentation](https://docs.microsoft.com/en-us/power-bi/desktop-report-themes)?  
 - Do you like JSON?  
@@ -16,6 +18,8 @@ Changing colors in Power BI themes is fairly straightforward. For formatting, th
 The purpose of this repository is to provide detail-level reference for each native visual in its own separate file. Look at the format options for a visual in Power BI Desktop and compare to the JSON options side by side. Copy and paste what you need from each visual's JSON to assemble a master Theme file.
 
 Please note that the values in these sample files will appear *ugly*. Many values are not Power BI's defaults. As soon as something worked, I moved on to the next property. Please modify or remove properties in your own theme file to be what you desire.
+
+### Available Visuals  
 
 - [Area Chart](https://github.com/deldersveld/PowerBI-ThemeTemplates/blob/master/Area.json)  
 - [Card](https://github.com/deldersveld/PowerBI-ThemeTemplates/blob/master/Card.json)  
