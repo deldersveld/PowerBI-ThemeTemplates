@@ -19,7 +19,11 @@
 					"labelDisplayUnits": "0",
 					"labelPrecision": 0,
 					"fontSize": 10,
-					"fontFamily": "Verdana"
+					"fontFamily": "Verdana",
+					"position": "inside"
+				}],
+				"slices": [{
+					"innerRadiusRatio": 90
 				}]
 			}
 		}
