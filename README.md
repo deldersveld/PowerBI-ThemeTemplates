@@ -19,7 +19,7 @@ The purpose of this repository is to provide detail-level reference for each nat
 
 Please note that the values in these sample files will appear *ugly*. Many values are not Power BI's defaults. As soon as something worked, I moved on to the next property. Please modify or remove properties in your own theme file to be what you desire.
 
-### Available Visuals  
+### Global Level Template
 Adjust titles, backgrounds, report page tooltips, wallpaper, and more for some or all visuals on a page or all pages.
 
 - [Global Level](https://github.com/deldersveld/PowerBI-ThemeTemplates/blob/master/GlobalLevelTemplate.json)  
