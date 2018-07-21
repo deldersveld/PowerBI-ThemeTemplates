@@ -1,0 +1,47 @@
+{
+	"name": "GlobalLevelTemplate",
+	"visualStyles": {
+        "*": {
+            "*": {
+                "title": [{
+                    "show": true,
+                    "fontColor": { "solid": { "color": "#cc6600" } },
+                    "background": { "solid": { "color": "#333333" } },
+                    "alignment": "center",
+                    "fontSize": 12,
+                    "fontFamily": "Verdana"
+                }],
+                "background": [{
+                    "show": true,
+                    "color": { "solid": { "color": "#002a5b" } },
+                    "transparency": 25
+                }],
+                "lockAspect": [{
+                    "show": true
+                }],
+                "border": [{
+                    "show": true,
+                    "color": { "solid": { "color": "#886b01" } }
+                }],
+                "visualTooltip": [{
+                    "type": "Default"
+                }],
+                "stylePreset": [{
+                    "name": "None"
+                }]
+            }
+        },
+        "page": {
+            "*": {
+                "background": [{
+                    "color": { "solid": { "color": "#465d85" } },
+                    "transparency": 50
+                }],
+                "outspace": [{
+                    "color": { "solid": { "color": "#886b01" } },
+                    "transparency": 50
+                }]
+            }
+        }
+    }
+}
