@@ -18,7 +18,17 @@
 				}],
 				"wordWrap": [{
 					"show": true
-				}]
+				}],
+				"background": [{
+						"show": true,
+						"color": {
+							"solid": {
+								"color": "#000000"
+							}
+						},
+						"transparency": 0
+					}
+				]
 			}
 		}
 	}
