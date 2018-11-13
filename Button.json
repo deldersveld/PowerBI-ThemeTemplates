@@ -1,0 +1,12 @@
+{
+	"name": "ButtonTemplate",
+	"visualStyles": {
+		"actionButton": {
+			"*": {
+				"visualHeader": [{
+					"show": true
+				}]
+			}
+		}
+	}
+}
