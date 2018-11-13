@@ -16,6 +16,9 @@
 				}],
 				"rotation": [{
 					"angle": 0
+				}],
+				"visualHeader": [{
+					"show": false
 				}]
 			}
 		}
