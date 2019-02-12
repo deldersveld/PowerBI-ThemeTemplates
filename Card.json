@@ -28,7 +28,19 @@
 						},
 						"transparency": 0
 					}
-				]
+				],
+				  "title": [{
+				    "show": true,
+				    "fontColor": { "solid": { "color": "#ffffff" } },
+				    "background": { "solid": { "color": "#062b60" } },
+				    "alignment": "left",
+				    "fontSize": 11,
+				    "fontFamily": "Segoe UI"
+				  }],
+				  "border": [{
+				    "show": true,
+				    "color": { "solid": { "color": "#062b60"}}
+				  }]
 			}
 		}
 	}
