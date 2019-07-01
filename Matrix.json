@@ -3,7 +3,10 @@
 	"visualStyles": {
 		"pivotTable": {
 			"*": {
-				"grid": [{
+					"stylePreset":[{
+                    			"name":"Condensed"
+                			}],
+					"grid": [{
 					"gridVertical": true,
 					"gridVerticalColor": { "solid": { "color": "#FFB8DD"}},
 					"gridVerticalWeight": 2,
@@ -37,7 +40,8 @@
 					"wordWrap": true,
 					"fontFamily": "Courier New",
 					"fontSize": 12,
-					"alignment": "Left"
+					"alignment": "Left", 
+					"showExpandCollapseButtons":true
 				}],
 				"values": [{
 					"fontColorPrimary": { "solid": { "color": "#00B8DD"}},
