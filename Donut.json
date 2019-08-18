@@ -8,7 +8,7 @@
 					"position": "Top",
 					"showTitle": true,
 					"titleText": "",
-					"legendColor": { "solid": { "color": "#01B8AA"}},
+					"labelColor": { "solid": { "color": "#01B8AA"}},
 					"fontFamily": "Segoe UI",
 					"fontSize": 12
 				}],
