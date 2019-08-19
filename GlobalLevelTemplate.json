@@ -35,10 +35,20 @@
             "*": {
                 "background": [{
                     "color": { "solid": { "color": "#465d85" } },
+		    "image": {
+                            "name": "background",
+                            "scaling": "Fit",
+                            "url": "<Base64 Encode>"
+                            },	
                     "transparency": 50
                 }],
                 "outspace": [{
                     "color": { "solid": { "color": "#886b01" } },
+                     "image": {
+                            "name": "outspace",
+                            "scaling": "Fit",
+                            "url": "<Base64 Encode>"
+                            },	
                     "transparency": 50
                 }]
             }
