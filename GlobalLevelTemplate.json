@@ -50,7 +50,41 @@
                             "url": "<Base64 Encode>"
                             },	
                     "transparency": 50
-                }]
+                }],
+                "outspacePane": [{
+                    "backgroundColor": { "solid": { "color": "#ededed" } },
+                    "foregroundColor": { "solid": { "color": "#3e3e3e" } },
+                    "borderColor": { "solid": { "color": "#3e3e3e" } },
+                    "transparency": 0,
+                    "titleSize": 18,
+                    "headerSize": 8,
+                    "fontFamily": "Segoe UI",
+                    "border": true
+                }],
+                "filterCard": [
+		    {
+                        "$id": "Applied",
+                        "backgroundColor": { "solid": { "color": "#0c62fb" } },
+                        "foregroundColor": { "solid": { "color": "#ffffff" } },
+                        "borderColor": { "solid": { "color": "#c2d8fe" } },
+                        "inputBoxColor": { "solid": { "color": "#ffffff" } },
+                        "transparency": 0,
+                        "textSize": 11,
+                        "fontFamily": "Segoe UI",
+                        "border": true
+                    },
+                    {
+                        "$id": "Available",
+                        "backgroundColor": { "solid": { "color": "#c2d8fe" } },
+                        "foregroundColor": { "solid": { "color": "#3e3e3e" } },
+                        "borderColor": { "solid": { "color": "#c2d8fe" } },
+                        "inputBoxColor": { "solid": { "color": "#c2d8fe" } },
+                        "transparency": 0,
+                        "textSize": 10,
+                        "fontFamily": "Segoe UI",
+                        "border": true
+                    }
+		]
             }
         }
     }
