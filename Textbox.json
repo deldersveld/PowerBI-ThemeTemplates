@@ -3,6 +3,12 @@
 	"visualStyles": {
 		"textbox": {
 			"*": {
+				"*": [{
+					"fontSize": 40,
+					"fontFamily": "Calibri",
+					"wordWrap": true,
+					"color": { "solid": { "color": "#FFFFFF"} }
+				}],
 				"background": [{
 					"show": true,
 					"color": { "solid": { "color": "#DDDDDD"}},
