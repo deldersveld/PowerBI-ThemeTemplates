@@ -30,8 +30,8 @@
                     "name": "None"
                 }],
                 "visualHeader": [{
-		    	    "foreground": { "solid": { "color": "#cc6600" } },
-		    	    "border": { "solid": { "color": "#333333" } },
+                    "foreground": { "solid": { "color": "#cc6600" } },
+                    "border": { "solid": { "color": "#333333" } },
                     "showTooltipButton": true
                 }],
                 "visualHeaderTooltip": [{
