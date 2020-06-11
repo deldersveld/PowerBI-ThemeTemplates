@@ -28,6 +28,17 @@
                 }],
                 "stylePreset": [{
                     "name": "None"
+                }],
+                "visualHeader": [{
+                    "foreground": { "solid": { "color": "#cc6600" } },
+                    "border": { "solid": { "color": "#333333" } },
+                    "showTooltipButton": true
+                }],
+                "visualHeaderTooltip": [{
+                    "text": "Header tooltip text",
+                    "titleFontColor": { "solid": { "color": "#cc6600" } },
+                    "transparency": 0,
+                    "background": { "solid": { "color": "#002a5b" } }
                 }]
             }
         },
