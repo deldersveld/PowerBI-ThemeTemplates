@@ -5,7 +5,11 @@
 			"*": {
 				"indicator": [{
 					"indicatorDisplayUnits": "Auto",
-					"indicatorPrecision": 1
+					"indicatorPrecision": 1,
+					"showIcon": true,
+					"iconSize": 15,
+					"horizontalAlignment": "left",
+					"verticalAlignment": "top"
 				}],
 				"trendline": [{
 					"show": true
