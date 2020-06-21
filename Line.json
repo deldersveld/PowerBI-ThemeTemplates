@@ -55,6 +55,15 @@
 					"gridlineThickness": 2,
 					"gridlineStyle": "dashed"
 				}],
+				"y2Axis": [{
+					"secStart": 0,
+					"secEnd": 2000,
+					"secFontSize": 16,
+					"secLabelColor": { "solid": { "color": "#0928DD"}},
+					"secShowAxisTitle": true,
+					"secTitleText": "Secondary Value Axis",
+					"secTitleColor": { "solid": { "color": "#448822"}}
+				}],
 				"dataPoint": [{
 					"defaultColor": { "solid": { "color": "#448822"}}
 				}],
