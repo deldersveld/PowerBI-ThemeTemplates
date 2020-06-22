@@ -32,6 +32,9 @@
 					"outline": "None",
 					"textSize": 11,
 					"fontFamily": "Segoe UI"
+				}],
+				"slider": [{ 
+					"color": {"solid": { "color": "#FF373A"} }
 				}]
 			}
 		}
