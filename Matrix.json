@@ -27,6 +27,7 @@
 					"fontFamily": "Courier New",
 					"fontSize": 12,
 					"alignment": "Left",
+					"titleAlignment": "Right",
 					"urlIcon": true,
 					"wordWrap": true
 				}],
