@@ -39,7 +39,18 @@
                     "titleFontColor": { "solid": { "color": "#cc6600" } },
                     "transparency": 0,
                     "background": { "solid": { "color": "#002a5b" } }
-                }]
+                }],
+                "dropShadow": [{
+                    "show": true,
+                    "angle": 100,
+                    "color" : { "solid": { "color": "#002a5b" } },
+                    "position": "Outer",
+                    "preset": "Custom",
+                    "shadowBlur": 20,
+                    "shadowDistance": 10,
+                    "shadowSpread": 7,
+                    "transparency": 25
+				}]
             }
         },
         "page": {
