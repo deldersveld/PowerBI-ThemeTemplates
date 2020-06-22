@@ -1,0 +1,47 @@
+{
+	"name": "DecompositionTreeTemplate",
+	"visualStyles": {
+		"decompositionTreeVisual": {
+			"*": {
+				"categoryLabels": [{
+					"categoryLabelFontColor": { "solid": { "color": "#0100AA"}},
+					"categoryLabelFontFamily": "Verdana",
+					"categoryLabelFontSize": 13
+				}],
+				"analysis": [{
+					"aiEnabled": true,
+					"aiMode": "relative"
+				}],
+				"tree": [{
+					"accentColor": { "solid": { "color": "#ABCDEF"}},
+					"barsPerLevel": 20,
+					"connectorDefaultColor": { "solid": { "color": "#0100AA"}},
+					"connectorType": "round",
+					"density": "sparse"
+				}],
+				"dataBars": [{
+					"dataBarBackgroundColor": { "solid": { "color": "#AFB5B6"}},
+					"dataBarScalingType": "parentNode",
+					"dataBarWidthPercent": 120,
+					"negativeBarColor": { "solid": { "color": "#FF0F12"}},
+					"positiveBarColor": { "solid": { "color": "#00FF2E"}}
+				}],
+				"dataLabels": [{
+					"dataLabelDisplayUnits": "0",
+					"dataLabelFontColor": { "solid": { "color": "#0100AA"}},
+					"dataLabelFontFamily": "Verdana",
+					"dataLabelFontSize": 15
+				}],
+				"levelHeader": [{
+					"levelHeaderBackgroundColor": { "solid": { "color": "#000000"}},
+					"levelSubtitleFontColor": { "solid": { "color": "#FFFFFF"}},
+					"levelSubtitleFontFamily": "Arial",
+					"levelSubtitleFontSize": 18,
+					"levelTitleFontColor": { "solid": { "color": "#ABCDEF"}},
+					"levelTitleFontFamily": "ArialBlack",
+					"levelTitleFontSize": 20
+				}]
+			}
+		}
+	}
+}
