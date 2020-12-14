@@ -60,9 +60,9 @@
 				"subTotals": [{
 					"rowSubtotals": true,
 					"columnSubtotals": true,
-					"fontColor": { "solid": { "color": "332222"}},
+					"fontColor": { "solid": { "color": "#332222"}},
 					"fontFamily": "Verdana",
-					"backColor": { "solid": { "color": "01B8AA"}},
+					"backColor": { "solid": { "color": "#01B8AA"}},
 					"fontSize": 14,
 					"applyToHeaders": true,
 					"rowSubtotalsPosition": "Bottom",
