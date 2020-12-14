@@ -21,7 +21,8 @@
                 }],
                 "border": [{
                     "show": true,
-                    "color": { "solid": { "color": "#886b01" } }
+                    "color": { "solid": { "color": "#886b01" } },
+                    "radius": 10
                 }],
                 "visualTooltip": [{
                     "type": "Default"
