@@ -35,6 +35,9 @@
 				}],
 				"slider": [{ 
 					"color": {"solid": { "color": "#FF373A"} }
+				}],
+				"background" : [{
+					"transparency": 100
 				}]
 			}
 		}
