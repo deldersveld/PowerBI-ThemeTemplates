@@ -1,17 +1,16 @@
 {
-	"name": "TextboxTemplate",
+	"name": "EsriArcGISMapTemplate",
 	"visualStyles": {
-		"textbox": {
+		"esriVisual": {
 			"*": {
-				"*": [{
-					"fontSize": 40,
-					"fontFamily": "Calibri",
-					"wordWrap": true,
-					"color": { "solid": { "color": "#FFFFFF"} }
-				}],
 				"general": [{
 					"responsive": true,
 					"keepLayerOrder": true
+				}],
+				"background": [{
+					"show": true,
+					"color": { "solid": { "color": "#FFFFFF"}},
+					"transparency": 0
 				}],
 				"border": [{
 					"color": { "solid": { "color": "#808080"}},
@@ -24,15 +23,16 @@
 					"background": { "solid": { "color": "#FFFFFF" } },
 					"alignment": "center"
 				}],
-				"background": [{
+				"legend": [{
 					"show": true,
-					"color": { "solid": { "color": "#DDDDDD"}},
-					"transparency": 0
-				}],
-				"visualHeader": [{
-					"show": true
+					"position": "Top",
+					"showTitle": true,
+					"titleText": "",
+					"legendColor": { "solid": { "color": "#01B8AA"}},
+					"fontFamily": "Segoe UI",
+					"fontSize": 12
 				}]
-			}
-		}
-	}
+            }
+        }
+    }
 }

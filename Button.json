@@ -3,8 +3,94 @@
 	"visualStyles": {
 		"actionButton": {
 			"*": {
+				"general": [{
+					"responsive": true,
+					"keepLayerOrder": true
+				}],
+				"background": [{
+					"show": true,
+					"color": { "solid": { "color": "#FFFFFF"}},
+					"transparency": 0
+				}],
+				"border": [{
+					"color": { "solid": { "color": "#808080"}},
+					"show": true,
+					"radius": 0
+				}],
+				"title": [{
+					"show": true,
+					"fontColor": { "solid": { "color": "#000000" } },
+					"background": { "solid": { "color": "#FFFFFF" } },
+					"alignment": "center"
+				}],
 				"visualHeader": [{
 					"show": true
+				}],
+				"outline": [{
+					"show": true
+				},
+				{
+					"$id": "default",
+					"weight": 5
+				},
+				{
+					"$id": "hover",
+					"weight": 5
+				},
+				{
+					"$id": "selected",
+					"weight": 5
+                }],
+                "fill": [{
+					"show": true
+				},
+				{
+					"$id": "default",
+					"transparency": 0,
+					"fillColor": {"solid":{"color":"#5CBE9A"}}
+				},
+				{
+					"$id": "hover",
+					"transparency": 0,
+					"fillColor": {"solid":{"color":"#B9E5F3"}}
+				},
+				{
+					"$id": "selected",
+					"transparency": 0,
+					"fillColor": {"solid":{"color":"#3643AC"}}
+                }],
+                "icon": [{
+					"show": true
+				},
+				{
+					"$id": "default",
+					"lineColor": {"solid":{"color":"#1A5741"}}
+				},
+				{
+					"$id": "hover",
+					"lineColor": {"solid":{"color":"#1A5741"}}
+				},
+				{
+					"$id": "selected",
+					"lineColor": {"solid":{"color":"#1A5741"}}
+				}],
+                "text": [{
+					"show": true
+				},
+				{
+					"$id": "default",
+					"fontColor": {"solid":{"color":"#FFFFFF"}},
+					"horizontalAlignment": "center"
+				},
+				{
+					"$id": "hover",
+					"fontColor": {"solid":{"color":"#FFFFFF"}},
+					"horizontalAlignment": "center"
+				},
+				{
+					"$id": "selected",
+					"fontColor": {"solid":{"color":"#FFFFFF"}},
+					"horizontalAlignment": "center"
 				}]
 			}
 		}
