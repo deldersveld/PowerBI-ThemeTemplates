@@ -3,6 +3,10 @@
 	"visualStyles": {
 		"card": {
 			"*": {
+				"general": [{
+					"responsive": true,
+					"keepLayerOrder": true
+				}],
 				"labels": [{
 					"color": { "solid": { "color": "#000000"}},
 					"labelDisplayUnits": "0",
@@ -21,14 +25,9 @@
 				}],
 				"background": [{
 						"show": true,
-						"color": {
-							"solid": {
-								"color": "#000000"
-							}
-						},
+						"color": { "solid": { "color": "#000000"}},
 						"transparency": 0
-					}
-				],
+				}],
 				  "title": [{
 				    "show": true,
 				    "fontColor": { "solid": { "color": "#ffffff" } },
@@ -39,7 +38,8 @@
 				  }],
 				  "border": [{
 				    "show": true,
-				    "color": { "solid": { "color": "#062b60"}}
+				    "color": { "solid": { "color": "#062b60"}},
+					"radius": 0
 				  }]
 			}
 		}
