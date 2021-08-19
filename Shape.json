@@ -1,7 +1,7 @@
 {
 	"name": "ShapeTemplate",
 	"visualStyles": {
-		"basicShape": {
+		"shape": {
 			"*": {
 				"line": [{
 					"lineColor": { "solid": { "color": "#01B8AA"}},
