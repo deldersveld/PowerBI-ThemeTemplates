@@ -13,7 +13,8 @@
 					"titleText": "",
 					"labelColor": { "solid": { "color": "#01B8AA"}},
 					"fontFamily": "Courier New",
-					"fontSize": 10
+					"fontSize": 10,
+					"legendMarkerRendering": "lineAndMarker"
 				}],
 				"categoryAxis": [{
 					"show": true,
