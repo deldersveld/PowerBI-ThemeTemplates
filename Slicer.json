@@ -16,7 +16,8 @@
 				}],
 				"selection": [{
 					"selectAllCheckboxEnabled": false,
-					"singleSelect": true
+					"singleSelect": true,
+					"multiSelect": true
 				}],
 				"header": [{
 					"show": true,
